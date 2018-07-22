@@ -8,6 +8,7 @@
 #     print(i)
 
 # a = [int(x) for x in input().split()]
+# print(a)
 
 # ==============================
 # ab = 'prizes$'
@@ -45,4 +46,5 @@ import math
 # print(abs(k))
 # print(math.fabs(k))
 k = [1, 2, 3]
-print(min(k))
+k.append(0)
+print(sorted(k))
